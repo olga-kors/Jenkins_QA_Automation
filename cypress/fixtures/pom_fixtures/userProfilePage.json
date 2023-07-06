@@ -1,0 +1,13 @@
+{
+    "description": "New test data",
+    "editDescription": "Edited test data",
+    "user": {
+        "name": "created1",
+        "password": "123",
+        "confirmPassword": "123",
+        "emailAddress": "qa@test.com",
+        "description": "Created first time a new description",
+        "dashboard": "Dashboard"
+    }, 
+    "userAddDescriptionBtn": "Add description"
+}

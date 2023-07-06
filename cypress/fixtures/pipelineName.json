@@ -1,0 +1,17 @@
+{
+    "namePipeline" : "myFirstPipeline",
+    "newNamePipeline" : "myPipelineRenamed",
+    "specialCharactersArr": [
+        "!", "@", "#", "$", "%", "^", "&", "*" 
+    ],
+    "newPipelineName" : "New Pipeline",
+    "confirmationOfDeleting" : "Delete Pipeline: are you sure?",
+    "confirmationOfDeletingFromSideBar" : "Delete the Pipeline",
+    "descriptionPipeLine" : "Pipeline Description",
+    "additionalDescriptionPipeline" : " second",
+    "pipelineJob": "Pipeline",
+    "textForNewItem":"New Item",
+    "textForDeleteProject" : "Delete Pipeline",
+    "firstDescription": "First Description",
+    "editPipelineDescription": "Description Edited"
+}

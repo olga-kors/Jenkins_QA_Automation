@@ -1,0 +1,17 @@
+{
+    "SidePanelTasks": {
+        "Names": [
+            "People",
+            "Status",
+            "Builds",
+            "Configure",
+            "My Views",
+            "Credentials"
+        ]
+    },
+
+    "BuildsHeader": "Builds for",
+
+    "BuildsPageText": "Builds for admin"
+
+}

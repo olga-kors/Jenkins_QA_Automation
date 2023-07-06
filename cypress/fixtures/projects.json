@@ -1,0 +1,91 @@
+{
+	"freestyle": {
+		"name": "Brand_new_Freestyle_project",
+		"description" : "Javascript test program"
+	},
+	"disabledProjectNotify": "This project is currently disabled",
+
+	"multibranchPipeline": {
+		"name": "Multibranch Pipeline1"
+	},
+	"api": {
+		"text": "REST API"
+	},
+
+	"pipeline": {
+		"name": "newPipeline_06"
+	},
+
+	"organizationFolder" : {
+		"name" : "myFirstOrganizationForder",
+		"disable": "This Organization Folder is currently disabled",
+		"disableBtn": "Disable Organization Folder"
+	  },
+
+	"multiConfigurationProject" : {
+		"name" : "myNewMultiConfigurationProject",
+		"renameWithValidName" : "RenamedProject123",
+		"advancedOptions": [
+			"Quiet period", 
+			"Retry Count", 
+			"Block build when upstream project is building", 
+			"Block build when downstream project is building", 
+			"Use custom workspace",	
+			"Use custom child workspace"
+		],
+		"advancedOptionsField": ["Display Name"],
+		"additionalAdvancedOptionsFields": {
+			"Quiet period": {
+				"Quiet period": {
+					"fieldName": "Quiet period",
+					"defaultValue": 5,
+					"setValue": 60
+				}
+			},
+			"Retry Count": {
+				"SCM checkout retry count": {
+					"fieldName": "SCM checkout retry count",
+					"defaultValue": 0,
+					"setValue": 1
+				}
+			},
+			"Use custom workspace": {
+				"Directory": {
+					"fieldName": "Directory",
+					"defaultValue": "",
+					"setValue": "testDerictory"
+				}
+			},
+			"Use custom child workspace": {
+				"Child Directory": {
+					"fieldName": "Child Directory",
+					"defaultValue": "${COMBINATION}",
+					"setValue": "${testDerictory}"
+				}
+			}
+		}
+	},
+	
+	"invalidSymbols" :  ["]", "!", "#", "$", "%", "&", "*", "/", ":", ";", "?", "@", "[", "^", "|"],
+	
+	"newProject" : "New project",
+
+	"forOrganizationFolder" : {
+		"name": "My Organization Folder",
+		"displayName": "Display Name",
+		"description": "Description"
+	},
+
+	"projects" : ["Project1", "Project2", "Project3"],
+
+	"setNamesForNewProject": [
+		{
+		  "name": "freestyle1"
+		},
+		{
+		  "name": "freestyle2"
+		}
+	  ],
+	  "searchBoxInput" : "freestyle"
+	
+}
